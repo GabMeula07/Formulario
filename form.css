@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Titulo */
+#titulo{
+    position: relative;
+    width: 500px;
+    font-size: 3em;
+    font-family: 'Ubuntu';
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-bottom: 2%;
+    
+}
+html{
+    height: 950px;
+    background-image:linear-gradient(45deg, rgb(255, 255, 255), rgb(114, 114, 114));
+}
+
+/* Subtitulo */
+#subtitulo{
+    position: relative;
+    font-size: 1.3em;
+    width: 300px;
+    font-family: 'Ubuntu';
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+}
+
+#check{
+    display: inline-block;
+    
+}
+
+fieldset{
+    border: 0; 
+}
+
+body{
+    
+    color: #aaacb1;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 5%;
+    margin-left: 26%;
+    justify-content: center;
+    position: absolute;
+    
+    
+}
+
+form{
+    background-image: linear-gradient(-45deg, rgb(12, 17, 59) ,rgb(164, 245, 221));
+    padding: 30px 20px;
+    padding-left: 40px;
+    width: 600px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.3);
+    
+    border-radius: 30px;
+    clear: both;
+    height: 570px;
+    margin-bottom: 2%;
+    position: absolute;
+
+}
+
+input, button, select, textarea{
+    font-family: "Ubuntu";
+    color:#fff;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 30px;
+    padding-left: 5px;
+    
+}
+
+.grupo:before, .grupo:after{
+    display: table;
+}
+
+.grupo:after{
+    clear: both;
+}
+
+.campo{
+    margin-bottom: 1.3em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+fieldset.grupo, .campo{
+    float: left;
+    margin-right: 1em;
+    color: #fff;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    background-color: #dffaf5;
+    padding: 0.4em;
+    border: solid 2px rgb(203, 207, 245);
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #b4ddf5;
+}
+
+.botao{
+    padding: 0.7em 0.9em;
+    background-color: rgb(159, 216, 243);
+    color:rgb(24, 24, 24);
+    border: 0;
+    border-radius: 30px;
+    top: 35em;
+    left: 48%;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    position: absolute;
+    margin-right: -50%;
+    margin-bottom: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+
